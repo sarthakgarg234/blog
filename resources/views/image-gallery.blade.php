@@ -96,7 +96,7 @@
                             <b><small style="font-size: 15px;" class='text-success'>
                                 Image Extention: {{ $image->image_extention }}</small><b><br>
                             <b><small style="font-size: 15px;" class='text-success'>
-                                Extention: {{ $image->image }}</small><b><br>
+                                Image Name: {{ $image->image_name }}</small><b><br>
                             <b><small style="font-size: 15px;" class='text-success'>
                                 Width: {{ $image->image_width }}</small><b><br>
                             <b><small style="font-size: 15px;" class='text-success'>
