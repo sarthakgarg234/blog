@@ -18,3 +18,6 @@
 Route::get('image-gallery', 'ImageGalleryController@index');
 Route::post('image-gallery', 'ImageGalleryController@upload');
 Route::delete('image-gallery/{id}', 'ImageGalleryController@destroy');
+
+Route::get('user_profile', 'UserProfileController@index');
+Route::post('user_profile', 'UserProfileController@store');
