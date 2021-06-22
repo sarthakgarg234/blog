@@ -21,3 +21,6 @@ Route::delete('image-gallery/{id}', 'ImageGalleryController@destroy');
 
 Route::get('user_profile', 'UserProfileController@index');
 Route::post('user_profile', 'UserProfileController@store');
+
+Route::get('admin', 'AdminController@index');
+Route::post('admin', 'AdminController@store');
